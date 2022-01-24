@@ -9,6 +9,7 @@ extension APIScope {
         case editComment(Parameters)
         case get(Parameters)
         case getById(Parameters)
+        case getComment(Parameters)
         case getComments(Parameters)
         case getReposts(Parameters)
         case pin(Parameters)
