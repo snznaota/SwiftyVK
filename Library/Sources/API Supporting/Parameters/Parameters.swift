@@ -359,7 +359,8 @@ public enum Parameter: String, Hashable {
     case timestampFrom = "timestamp_from"
     case timestampTo = "timestamp_to"
     case statsGroups = "stats_groups"
-    
+    case threadItemsCount = "thread_items_count"
+
     public var hashValue: Int {
         return self.rawValue.hashValue
     }
